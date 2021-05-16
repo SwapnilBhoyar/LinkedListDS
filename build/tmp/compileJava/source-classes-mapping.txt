@@ -2,7 +2,7 @@ INode.java
  INode
 MyNode.java
  MyNode
-MyStack.java
- MyStack
 MyLinkedList.java
  MyLinkedList
+MyStack.java
+ MyStack
