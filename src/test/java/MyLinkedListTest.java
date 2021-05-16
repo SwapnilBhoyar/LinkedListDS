@@ -61,7 +61,7 @@ public class MyLinkedListTest {
     }
 
     @Test
-    public void given3NumberWhenDeletedLastShouldPassTheLinkedListTest() {
+    public void given3NumberWhenDeletedLastShouldPassTheLinkedTest() {
         MyNode<Integer> myFirstNode = new MyNode<>(56);
         MyNode<Integer> mySecondNode = new MyNode<>(30);
         MyNode<Integer> myThirdNode = new MyNode<>(70);
@@ -74,5 +74,18 @@ public class MyLinkedListTest {
         myLinkedList.printMyNodes();
         boolean result = myLinkedList.head.equals(myFirstNode) && myLinkedList.tail.equals(mySecondNode);
         Assertions.assertTrue(result);
+    }
+
+    @Test
+    public void given3NumbersWhenSearchedKeyShouldPassTheLinkedListTest() {
+        MyNode<Integer> myFirstNode = new MyNode<>(56);
+        MyNode<Integer> mySecondNode = new MyNode<>(30);
+        MyNode<Integer> myThirdNode = new MyNode<>(70);
+        MyLinkedList myLinkedList = new MyLinkedList();
+        myLinkedList.append(myFirstNode);
+        myLinkedList.append(mySecondNode);
+        myLinkedList.append(myThirdNode);
+        myLinkedList.printMyNodes();
+        Assertions.assertEquals(30, myLinkedList.search(mySecondNode).getKey());
     }
 }

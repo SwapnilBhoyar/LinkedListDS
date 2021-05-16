@@ -55,6 +55,14 @@ public class MyLinkedList {
         return tempNode;
     }
 
+    public INode search(INode myNode){
+        INode tempNode = head;
+        while (tempNode.getNext()!=myNode){
+            tempNode=tempNode.getNext();
+        }
+        return tempNode.getNext();
+    }
+
     public void printMyNodes() {
         StringBuffer myNodes = new StringBuffer("My Nodes: ");
         INode tempNode = head;
