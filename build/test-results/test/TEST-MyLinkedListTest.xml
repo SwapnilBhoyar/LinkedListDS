@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-16T20:22:45" hostname="neo" time="0.053">
+<testsuite name="MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-16T20:34:33" hostname="neo" time="0.035">
   <properties/>
-  <testcase name="given3NumberWhenDeletedHeadShouldPassTheLinkedListTest()" classname="MyLinkedListTest" time="0.053"/>
+  <testcase name="given3NumberWhenDeletedHeadShouldPassTheLinkedListTest()" classname="MyLinkedListTest" time="0.035"/>
   <system-out><![CDATA[My Nodes: 56->30->70
 My Nodes: 30->70
 ]]></system-out>
