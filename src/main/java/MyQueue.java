@@ -9,7 +9,7 @@ public class MyQueue {
         myLinkedList.append(myNode);
     }
 
-    public void printStack() {
+    public void printQueue() {
         myLinkedList.printMyNodes();
     }
 
