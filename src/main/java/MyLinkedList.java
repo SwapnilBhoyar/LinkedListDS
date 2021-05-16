@@ -83,8 +83,6 @@ public class MyLinkedList {
         System.out.println("Size: " + nodeCount);
     }
 
-
-
     public void printMyNodes() {
         StringBuffer myNodes = new StringBuffer("My Nodes: ");
         INode tempNode = head;

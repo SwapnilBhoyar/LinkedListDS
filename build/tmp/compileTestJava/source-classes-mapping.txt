@@ -1,4 +1,6 @@
 MyNodeTest.java
  MyNodeTest
+MyStackTest.java
+ MyStackTest
 MyLinkedListTest.java
  MyLinkedListTest
